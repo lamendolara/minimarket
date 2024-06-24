@@ -36,7 +36,7 @@ class CloseBox(TimeStampedModel):
 
     class Meta:
         verbose_name = 'Cierre Caja'
-        verbose_name_plural = 'Cirres de Caja'
+        verbose_name_plural = 'Cierres de Caja'
 
     def __str__(self):
         return str(self.user.full_name) + ' - ' + str(self.date_close)
